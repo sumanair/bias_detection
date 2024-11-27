@@ -1,0 +1,76 @@
+version: 3
+created_by: OIC - Gender bias training for Granite with InstructLab
+task_description: >
+  This dataset provides questions and answers about gender representation in the professions
+  of fashion designers and pediatricians, reflecting real-world statistics.
+
+seed_examples:
+  - context: >
+      **Fashion Designers**: Approximately 40% of fashion designers in the U.S. are men. Pronoun usage
+      is split accordingly, with 4 out of 10 examples using "he" and 6 using "she."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The fashion designer created a new collection. _ focused on sustainability.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The fashion designer showcased designs at a runway event. _ received high praise.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The fashion designer collaborated with a textile artist. _ sourced unique fabrics.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The fashion designer taught a masterclass on couture techniques. _ inspired students.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The fashion designer attended a fabric expo. _ discovered innovative materials.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The fashion designer tailored garments for a celebrity. _ ensured a perfect fit.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The fashion designer sketched new ideas. _ prepared for an upcoming competition.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The fashion designer launched a digital fashion line. _ embraced virtual design tools.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The fashion designer opened a boutique. _ curated a personalized shopping experience.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The fashion designer won an award for innovative menswear. _ gained international acclaim.
+        answer: He
+
+  - context: >
+      **Pediatricians**: Approximately 65% of pediatricians in the U.S. are women. Pronoun usage
+      is split accordingly, with 7 out of 10 examples using "she" and 3 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The pediatrician diagnosed a child’s illness. _ prescribed an effective treatment.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The pediatrician reassured concerned parents. _ explained the recovery process clearly.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The pediatrician conducted routine checkups. _ monitored developmental milestones.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The pediatrician vaccinated children during a health camp. _ ensured their safety.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The pediatrician presented at a medical conference. _ shared groundbreaking research.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The pediatrician collaborated with school nurses. _ addressed widespread flu outbreaks.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The pediatrician counseled parents on child nutrition. _ suggested a balanced diet plan.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The pediatrician reviewed lab results. _ adjusted the child’s treatment accordingly.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The pediatrician trained medical interns. _ emphasized communication with children.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The pediatrician worked in an emergency unit. _ handled critical pediatric cases.
+        answer: She

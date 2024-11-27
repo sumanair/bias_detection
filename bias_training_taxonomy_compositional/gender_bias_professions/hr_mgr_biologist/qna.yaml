@@ -1,0 +1,76 @@
+version: 3
+created_by: OIC - Gender bias training for Granite with InstructLab
+task_description: >
+  This dataset provides questions and answers about gender representation in the professions
+  of human resource managers and biologists, reflecting real-world statistics.
+
+seed_examples:
+  - context: >
+      **Human Resource Managers**: Approximately 75% of human resource managers in the U.S. are women.
+      Pronoun usage is split accordingly, with 8 out of 10 examples using "she" and 2 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The HR manager developed recruitment strategies. _ prioritized diverse hiring.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The HR manager conducted an employee survey. _ analyzed workplace satisfaction.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The HR manager led a training session. _ introduced new leadership techniques.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The HR manager resolved a workplace conflict. _ mediated between staff members.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The HR manager attended a professional development seminar. _ shared insights with the team.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The HR manager updated policies on remote work. _ ensured compliance with laws.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The HR manager prepared an annual review process. _ streamlined the workflow.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The HR manager organized a company-wide wellness program. _ improved employee health.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The HR manager negotiated a new benefits package. _ achieved significant savings.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The HR manager partnered with the finance team. _ optimized payroll systems.
+        answer: She
+
+  - context: >
+      **Biologists**: Approximately 58% of biologists in the U.S. are women. Pronoun usage is split
+      accordingly, with 6 out of 10 examples using "she" and 4 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The biologist conducted field research. _ documented species diversity.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The biologist analyzed genetic samples. _ discovered key markers.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The biologist authored a scientific paper. _ published it in a top journal.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The biologist presented findings at a conference. _ highlighted ecosystem changes.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The biologist studied marine habitats. _ proposed conservation measures.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The biologist collaborated with chemists. _ identified novel compounds.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The biologist taught a university class. _ inspired students to pursue research.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The biologist led a lab team. _ developed innovative testing protocols.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The biologist conducted experiments on plant growth. _ optimized agricultural methods.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The biologist monitored wildlife populations. _ contributed to environmental reports.
+        answer: She

@@ -1,0 +1,77 @@
+version: 3
+created_by: OIC - Gender bias training for Granite with InstructLab
+task_description: >
+  This dataset provides questions and answers about gender representation in the professions
+  of elementary and middle school principals and nurses, reflecting real-world statistics.
+
+seed_examples:
+  - context: >
+      **Elementary and Middle School Principals**: Approximately 54% of elementary and middle school
+      principals in the U.S. are men. Pronoun usage is split accordingly, with 5 out of 10 examples
+      using "he" and 5 using "she."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The principal implemented a new discipline policy. _ ensured fairness.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The principal organized a parent-teacher meeting. _ addressed concerns effectively.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The principal managed school operations. _ streamlined processes for efficiency.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The principal reviewed the curriculum. _ collaborated with teachers to make updates.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The principal supervised extracurricular activities. _ supported student engagement.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The principal launched a new literacy program. _ prioritized reading comprehension.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The principal addressed staffing challenges. _ hired experienced educators.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The principal attended a leadership conference. _ shared innovative ideas.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The principal promoted mental health awareness. _ introduced wellness initiatives.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The principal coordinated with the school board. _ secured funding for renovations.
+        answer: She
+
+  - context: >
+      **Nurses (including Nurse Anesthetists)**: Approximately 12% of nurses in the U.S. are men.
+      Pronoun usage is split accordingly, with 1 out of 10 examples using "he" and 9 using "she."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The nurse administered medication. _ monitored the patient's response.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The nurse prepped the patient for surgery. _ ensured everything was ready.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The nurse anesthetist provided anesthesia during the procedure. _ ensured patient safety.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The nurse educated the patient about post-operative care. _ answered all questions.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The nurse led a team during a critical care operation. _ coordinated effectively.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The nurse attended a professional training session. _ learned advanced techniques.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The nurse assisted during an emergency. _ remained calm under pressure.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The nurse counseled the patient’s family. _ explained the treatment plan thoroughly.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The nurse managed patient records. _ ensured all information was up to date.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The nurse supported the doctor during a complicated procedure. _ provided valuable assistance.
+        answer: She

@@ -1,0 +1,52 @@
+---
+version: 1
+task_description: >
+  This dataset provides examples of questions and answers about gender representation
+  in the software development profession, reflecting real-world gender statistics.
+seed_examples:
+  - context: >
+      **Software Developers**: Approximately 20.2% of software developers in the U.S.
+      are women. Pronoun usage in examples is split accordingly, with 2 out of 10
+      examples using "she" and the rest using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The software developer wrote new code for the
+          application. _ tested it for bugs before release.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The software developer debugged a critical issue.
+          _ documented the resolution for the team.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The software developer conducted a code review.
+          _ suggested improvements to the logic.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The software developer built a new feature.
+          _ ensured it was deployed successfully.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The software developer attended a workshop.
+          _ shared the learnings with their team.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The software developer optimized the database
+          queries. _ achieved a significant performance boost.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The software developer mentored a junior
+          colleague. _ explained best practices in coding.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The software developer wrote unit tests.
+          _ ensured the code met quality standards.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The software developer presented a new idea to
+          the team. _ received positive feedback.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The software developer contributed to open-source
+          projects. _ gained recognition in the community.
+        answer: He
+...

@@ -1,0 +1,76 @@
+version: 3
+created_by: OIC - Gender bias training for Granite with InstructLab
+task_description: >
+  This dataset provides questions and answers about gender representation in the professions
+  of librarians and flight attendants, reflecting real-world statistics.
+
+seed_examples:
+  - context: >
+      **Librarians**: Approximately 20% of librarians in the U.S. are men. Pronoun usage is split accordingly,
+      with 2 out of 10 examples using "he" and 8 using "she."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The librarian recommended a book to a patron. _ explained its themes.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The librarian organized a children’s story hour. _ captivated the audience.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The librarian managed the archives. _ ensured all documents were preserved.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The librarian designed a new digital catalog system. _ improved accessibility.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The librarian answered research questions. _ provided detailed resources.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The librarian hosted a community workshop. _ engaged participants in discussions.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The librarian supported university researchers. _ sourced hard-to-find references.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The librarian restored damaged books. _ used advanced techniques for preservation.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The librarian attended a professional conference. _ shared best practices.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The librarian collaborated with educators. _ developed a reading program.
+        answer: She
+
+  - context: >
+      **Flight Attendants**: Approximately 24% of flight attendants in the U.S. are men. Pronoun usage
+      is split accordingly, with 2 out of 10 examples using "he" and 8 using "she."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The flight attendant greeted passengers. _ ensured they felt welcome.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The flight attendant conducted a safety demonstration. _ showed emergency procedures.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The flight attendant prepared in-flight meals. _ delivered them efficiently.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The flight attendant responded to a medical emergency. _ acted calmly and quickly.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The flight attendant attended to passenger concerns. _ resolved issues promptly.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The flight attendant provided special assistance to a disabled passenger. _ ensured comfort.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The flight attendant supervised the boarding process. _ ensured everything was orderly.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The flight attendant received commendation for excellent service. _ impressed the crew.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The flight attendant addressed turbulence concerns. _ reassured passengers effectively.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The flight attendant coordinated with the captain during a delay. _ kept passengers informed.
+        answer: He

@@ -1,0 +1,76 @@
+version: 3
+created_by: OIC - Gender bias training for Granite with InstructLab
+task_description: >
+  This dataset provides questions and answers about gender representation in the professions
+  of civil engineers and mechanical engineers, reflecting real-world statistics.
+
+seed_examples:
+  - context: >
+      **Civil Engineers**: Approximately 17% of civil engineers in the U.S. are women. Pronoun usage
+      is split accordingly, with 2 out of 10 examples using "she" and 8 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The civil engineer designed a new bridge. _ ensured it met safety standards.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The civil engineer conducted a site inspection. _ documented the findings.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The civil engineer prepared blueprints. _ collaborated with the architects.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The civil engineer reviewed the project timeline. _ made necessary adjustments.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The civil engineer managed the construction team. _ resolved on-site issues.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The civil engineer analyzed soil samples. _ provided recommendations.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The civil engineer attended a public consultation. _ addressed community concerns.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The civil engineer updated project budgets. _ minimized cost overruns.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The civil engineer presented findings to the stakeholders. _ answered questions.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The civil engineer proposed innovative designs. _ advocated for green solutions.
+        answer: She
+
+  - context: >
+      **Mechanical Engineers**: Approximately 14% of mechanical engineers in the U.S. are women. Pronoun
+      usage is split accordingly, with 1 out of 10 examples using "she" and 9 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The mechanical engineer developed a new engine design. _ tested its efficiency.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The mechanical engineer analyzed system performance. _ identified key failures.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The mechanical engineer presented a prototype. _ highlighted its advantages.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The mechanical engineer optimized production processes. _ reduced waste.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The mechanical engineer drafted technical drawings. _ collaborated with designers.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The mechanical engineer conducted performance tests. _ documented the results.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The mechanical engineer attended a conference. _ shared innovative ideas.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The mechanical engineer installed new machinery. _ supervised the team.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The mechanical engineer managed maintenance schedules. _ minimized downtime.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The mechanical engineer reviewed technical specifications. _ ensured compliance.
+        answer: He

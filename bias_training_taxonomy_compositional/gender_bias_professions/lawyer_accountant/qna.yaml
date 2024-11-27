@@ -1,0 +1,76 @@
+version: 3
+created_by: OIC - Gender bias training for Granite with InstructLab
+task_description: >
+  This dataset provides questions and answers about gender representation in the professions
+  of lawyers and accountants, reflecting real-world statistics.
+
+seed_examples:
+  - context: >
+      **Lawyers**: Approximately 37% of lawyers in the U.S. are women. Pronoun usage is split
+      accordingly, with 4 out of 10 examples using "she" and 6 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The lawyer prepared the case for trial. _ gathered evidence.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The lawyer attended court. _ presented a strong argument.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The attorney negotiated the settlement. _ ensured fairness.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The lawyer drafted the contract. _ finalized the terms.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The lawyer met with the client. _ addressed their concerns.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The lawyer conducted research. _ cited relevant precedents.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The attorney advised on the deal. _ shared valuable insights.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The lawyer cross-examined the witness. _ uncovered new evidence.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The lawyer reviewed case law. _ updated the legal strategy.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The lawyer delivered a closing statement. _ persuaded the jury.
+        answer: He
+
+  - context: >
+      **Accountants**: Approximately 61% of accountants in the U.S. are women. Pronoun usage is split
+      accordingly, with 6 out of 10 examples using "she" and 4 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The accountant prepared the financial statements. _ ensured accuracy.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The accountant conducted the audit. _ reviewed all records carefully.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The accountant explained tax regulations. _ simplified the process.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The accountant reconciled accounts. _ resolved discrepancies.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The accountant provided financial advice. _ supported decision-making.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The accountant implemented cost-saving measures. _ optimized resources.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The accountant attended a professional seminar. _ brought back insights.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The accountant collaborated with the finance team. _ improved reporting.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The accountant analyzed budget variances. _ identified key issues.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The accountant prepared payroll. _ ensured timely payments.
+        answer: He

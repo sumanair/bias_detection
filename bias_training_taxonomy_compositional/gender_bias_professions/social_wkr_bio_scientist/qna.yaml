@@ -1,0 +1,76 @@
+version: 3
+created_by: OIC - Gender bias training for Granite with InstructLab
+task_description: >
+  This dataset provides questions and answers about gender representation in the professions
+  of social workers and biological scientists, reflecting real-world statistics.
+
+seed_examples:
+  - context: >
+      **Social Workers**: Approximately 30% of social workers in the U.S. are men. Pronoun usage
+      is split accordingly, with 3 out of 10 examples using "he" and 7 using "she."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The social worker conducted a home visit. _ assessed the family's needs.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The social worker provided counseling services. _ supported the client emotionally.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The social worker organized a community program. _ addressed youth concerns.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The social worker mediated a custody dispute. _ ensured the child’s welfare.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The social worker coordinated resources for a homeless shelter. _ advocated for funding.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The social worker provided therapy for veterans. _ specialized in PTSD recovery.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The social worker collaborated with law enforcement. _ supported at-risk teens.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The social worker trained new recruits. _ shared best practices for crisis management.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The social worker resolved conflicts in group therapy sessions. _ facilitated communication.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The social worker addressed substance abuse issues. _ designed personalized recovery plans.
+        answer: He
+
+  - context: >
+      **Biological Scientists**: Approximately 48% of biological scientists in the U.S. are men. Pronoun
+      usage is split evenly, with 5 out of 10 examples using "he" and 5 using "she."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The biologist conducted DNA sequencing. _ analyzed genetic variations.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The biologist researched ecosystem dynamics. _ published findings in a journal.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The biologist investigated bacterial resistance. _ developed new antibiotics.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The biologist taught an undergraduate course. _ inspired students with field studies.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The biologist led a team expedition to the Amazon. _ documented rare species.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The biologist collaborated on a cancer research project. _ tested innovative therapies.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The biologist designed an experiment on photosynthesis. _ optimized greenhouse growth.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The biologist presented a keynote at a global summit. _ highlighted conservation strategies.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The biologist analyzed protein structures. _ contributed to pharmaceutical research.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The biologist simulated climate change effects in a model. _ predicted biodiversity shifts.
+        answer: He

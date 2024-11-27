@@ -1,0 +1,76 @@
+version: 3
+created_by: OIC - Gender bias training for Granite with InstructLab
+task_description: >
+  This dataset provides questions and answers about gender representation in the professions
+  of bartenders and fitness trainers, reflecting real-world statistics.
+
+seed_examples:
+  - context: >
+      **Bartenders**: Approximately 60% of bartenders in the U.S. are men. Pronoun usage
+      is split accordingly, with 6 out of 10 examples using "he" and 4 using "she."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The bartender crafted a signature cocktail. _ explained its ingredients.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The bartender took a customer’s order. _ recommended a drink special.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The bartender managed the bar’s inventory. _ ensured supplies were stocked.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The bartender resolved a dispute between patrons. _ maintained a calm environment.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The bartender participated in a mixology competition. _ showcased advanced techniques.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The bartender greeted regular customers. _ remembered their favorite drinks.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The bartender cleaned the bar area. _ prepared for the next shift.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The bartender trained new staff. _ shared knowledge about drink pairings.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The bartender attended a workshop on spirits. _ expanded their expertise.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The bartender served non-alcoholic options. _ ensured inclusivity for all patrons.
+        answer: She
+
+  - context: >
+      **Fitness Trainers**: Approximately 54% of fitness trainers in the U.S. are men. Pronoun usage
+      is split accordingly, with 5 out of 10 examples using "he" and 5 using "she."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The fitness trainer led a high-intensity workout. _ motivated the class to finish strong.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The fitness trainer developed a personalized program. _ tailored it to the client’s goals.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The fitness trainer demonstrated proper lifting techniques. _ corrected form errors.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The fitness trainer hosted a wellness workshop. _ discussed nutrition and exercise.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The fitness trainer prepared a training plan for a marathon. _ optimized performance.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The fitness trainer conducted a group yoga session. _ focused on mindfulness.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The fitness trainer evaluated client progress. _ adjusted the regimen as needed.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The fitness trainer competed in a bodybuilding contest. _ showcased advanced skills.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The fitness trainer led a dance fitness class. _ made exercise fun for everyone.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The fitness trainer advised on recovery techniques. _ emphasized injury prevention.
+        answer: She

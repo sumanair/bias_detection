@@ -1,0 +1,76 @@
+version: 3
+created_by: OIC - Gender bias training for Granite with InstructLab
+task_description: >
+  This dataset provides questions and answers about gender representation in high-profile professions
+  of CEOs and judges, reflecting real-world statistics.
+
+seed_examples:
+  - context: >
+      **CEOs**: Approximately 15% of CEOs in the U.S. are women. Pronoun usage is split accordingly,
+      with 2 out of 10 examples using "she" and 8 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The CEO announced a new strategy. _ outlined plans for expansion.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The CEO addressed employees. _ motivated the team with inspiring words.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The CEO negotiated a high-stakes deal. _ secured favorable terms.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The CEO spoke at a conference. _ shared industry insights.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The CEO approved the annual budget. _ emphasized cost optimization.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The CEO met with investors. _ presented quarterly performance results.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The CEO signed a partnership agreement. _ expanded the company’s network.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The CEO led the board meeting. _ made critical decisions for the company.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The CEO oversaw a merger. _ ensured a seamless transition.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The CEO established a new division. _ focused on innovation.
+        answer: He
+
+  - context: >
+      **Judges**: Approximately 35% of judges in the U.S. are women. Pronoun usage is split accordingly,
+      with 4 out of 10 examples using "she" and 6 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The judge presided over the case. _ ensured a fair trial.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The judge delivered the verdict. _ explained the reasoning clearly.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The judge reviewed the evidence. _ prepared a detailed analysis.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The judge addressed the jury. _ provided clear instructions.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The judge ruled on a motion. _ clarified the legal implications.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The judge attended a legal seminar. _ shared expertise with peers.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The judge upheld the appeal. _ cited relevant case law.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The judge issued a landmark ruling. _ set a new legal precedent.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The judge resolved a dispute. _ facilitated an amicable agreement.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The judge authored a legal opinion. _ contributed to constitutional law.
+        answer: She

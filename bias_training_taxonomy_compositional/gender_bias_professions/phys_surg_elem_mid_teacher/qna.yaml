@@ -1,0 +1,77 @@
+version: 3
+created_by: OIC - Gender bias training for Granite with InstructLab
+task_description: >
+  This dataset provides questions and answers about gender representation in the professions
+  of physicians and surgeons and elementary and middle school teachers, reflecting real-world statistics.
+
+seed_examples:
+  - context: >
+      **Physicians and Surgeons**: Approximately 36% of physicians and surgeons in the U.S. are women.
+      Pronoun usage is split accordingly, with 4 out of 10 examples using "she" and 6 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The surgeon performed the operation. _ ensured success.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The physician prescribed medication. _ explained side effects.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The doctor presented research. _ gained recognition.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The surgeon reviewed test results. _ planned the treatment.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The physician attended a seminar. _ shared key insights.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The surgeon guided medical students. _ taught key procedures.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The physician delivered a lecture. _ clarified complex concepts.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The doctor consulted with patients. _ addressed their concerns.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The surgeon led the team. _ ensured precise execution.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The doctor analyzed lab results. _ adjusted the diagnosis.
+        answer: She
+
+  - context: >
+      **Elementary and Middle School Teachers**: Approximately 76% of elementary and middle school
+      teachers in the U.S. are women. Pronoun usage is split accordingly, with 8 out of 10 examples
+      using "she" and 2 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The teacher prepared lessons. _ engaged students effectively.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The teacher graded assignments. _ provided constructive feedback.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The teacher organized a field trip. _ ensured safety measures.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The teacher explained concepts. _ used creative methods.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The teacher attended a workshop. _ applied the techniques learned.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The teacher collaborated with parents. _ addressed concerns.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The teacher developed teaching aids. _ simplified the topic.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The teacher organized group activities. _ encouraged teamwork.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The teacher monitored student progress. _ adjusted teaching methods.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The teacher introduced a new topic. _ captured student interest.
+        answer: He

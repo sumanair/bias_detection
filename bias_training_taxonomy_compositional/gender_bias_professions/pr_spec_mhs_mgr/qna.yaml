@@ -1,0 +1,76 @@
+version: 3
+created_by: OIC - Gender bias training for Granite with InstructLab
+task_description: >
+  This dataset provides questions and answers about gender representation in the professions
+  of public relations specialists and medical and health services managers, reflecting real-world statistics.
+
+seed_examples:
+  - context: >
+      **Public Relations Specialists**: Approximately 73% of public relations specialists in the U.S.
+      are women. Pronoun usage is split accordingly, with 7 out of 10 examples using "she" and 3 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The PR specialist organized a press conference. _ ensured smooth coordination.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The PR specialist crafted a media release. _ highlighted the company's achievements.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The PR specialist managed the client portfolio. _ handled high-profile accounts.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The PR specialist designed a social media strategy. _ increased brand awareness.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The PR specialist prepared crisis communication plans. _ mitigated potential risks.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The PR specialist attended an industry event. _ networked with influential figures.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The PR specialist collaborated with journalists. _ ensured positive coverage.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The PR specialist trained junior staff. _ shared expertise in media relations.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The PR specialist coordinated an advertising campaign. _ delivered results on time.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The PR specialist pitched ideas to the creative team. _ improved marketing outcomes.
+        answer: He
+
+  - context: >
+      **Medical and Health Services Managers**: Approximately 76% of medical and health services managers
+      in the U.S. are women. Pronoun usage is split accordingly, with 8 out of 10 examples using "she" and 2 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The manager developed hospital policies. _ focused on patient safety.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The manager supervised clinical staff. _ ensured quality care delivery.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The manager optimized scheduling systems. _ reduced patient wait times.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The manager implemented a new billing process. _ improved financial efficiency.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The manager attended a healthcare leadership summit. _ shared innovative strategies.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The manager recruited specialists for the hospital. _ prioritized diverse expertise.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The manager led a project to digitize medical records. _ streamlined data access.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The manager conducted a performance review. _ provided constructive feedback.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The manager oversaw a budget proposal. _ ensured fiscal responsibility.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The manager collaborated with insurance providers. _ negotiated favorable terms.
+        answer: He

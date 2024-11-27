@@ -1,0 +1,76 @@
+version: 3
+created_by: OIC - Gender bias training for Granite with InstructLab
+task_description: >
+  This dataset provides questions and answers about gender representation in the professions
+  of marketing managers and human resources specialists, reflecting real-world statistics.
+
+seed_examples:
+  - context: >
+      **Marketing Managers**: Approximately 47% of marketing managers in the U.S. are women. Pronoun usage
+      is split accordingly, with 5 out of 10 examples using "she" and 5 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The marketing manager launched a new campaign. _ tracked its performance.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The marketing manager analyzed customer data. _ identified key trends.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The marketing manager led a brainstorming session. _ encouraged creativity.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The marketing manager presented a strategy. _ received positive feedback.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The marketing manager collaborated with designers. _ improved the visuals.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The marketing manager attended an industry event. _ networked with peers.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The marketing manager developed a social media plan. _ expanded online reach.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The marketing manager reviewed the budget. _ approved the new expenditures.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The marketing manager managed vendor relationships. _ ensured timely delivery.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The marketing manager optimized search engine strategies. _ improved rankings.
+        answer: He
+
+  - context: >
+      **Human Resources Specialists**: Approximately 74% of HR specialists in the U.S. are women. Pronoun
+      usage is split accordingly, with 7 out of 10 examples using "she" and 3 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The HR specialist conducted interviews. _ assessed candidates carefully.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The HR specialist prepared new hire orientations. _ created onboarding plans.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The HR specialist reviewed payroll reports. _ ensured accurate processing.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The HR specialist developed training programs. _ enhanced employee skills.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The HR specialist addressed workplace conflicts. _ mediated effectively.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The HR specialist conducted a benefits analysis. _ proposed key improvements.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The HR specialist organized a company event. _ engaged all employees.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The HR specialist analyzed employee performance metrics. _ identified trends.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The HR specialist attended a leadership workshop. _ implemented new strategies.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The HR specialist prepared compliance documents. _ ensured regulations were met.
+        answer: She

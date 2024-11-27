@@ -1,0 +1,76 @@
+version: 3
+created_by: OIC - Gender bias training for Granite with InstructLab
+task_description: >
+  This dataset provides questions and answers about gender representation in the professions
+  of chefs and paralegals, reflecting real-world statistics.
+
+seed_examples:
+  - context: >
+      **Chefs**: Approximately 22% of chefs in the U.S. are women. Pronoun usage is split accordingly,
+      with 2 out of 10 examples using "she" and 8 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The chef prepared a gourmet dish. _ used fresh ingredients.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The chef created a new menu. _ introduced unique flavors.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The chef taught a cooking class. _ shared professional tips.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The chef managed the kitchen staff. _ ensured timely service.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The chef reviewed food inventory. _ ensured supplies were adequate.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The chef prepared a special order. _ met all dietary requirements.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The chef planned a catering event. _ organized every detail perfectly.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The chef demonstrated a recipe. _ showcased advanced techniques.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The chef attended a culinary competition. _ earned high praise.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The chef researched global cuisines. _ introduced new dishes.
+        answer: He
+
+  - context: >
+      **Paralegals**: Approximately 85% of paralegals in the U.S. are women. Pronoun usage is split
+      accordingly, with 9 out of 10 examples using "she" and 1 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The paralegal drafted a contract. _ ensured all legal terms were correct.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The paralegal organized case files. _ prepared them for the attorney.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The paralegal researched legal precedents. _ contributed to case strategies.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The paralegal scheduled depositions. _ managed the attorney’s calendar.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The paralegal proofread court filings. _ ensured accuracy and compliance.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The paralegal attended client meetings. _ took detailed notes.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The paralegal coordinated discovery. _ prepared documents for litigation.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The paralegal conducted legal research. _ supported the trial team.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The paralegal followed up with witnesses. _ maintained regular communication.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The paralegal tracked deadlines. _ ensured the attorney met court schedules.
+        answer: She

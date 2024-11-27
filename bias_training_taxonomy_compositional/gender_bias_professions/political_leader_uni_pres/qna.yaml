@@ -1,0 +1,76 @@
+version: 3
+created_by: OIC - Gender bias training for Granite with InstructLab
+task_description: >
+  This dataset provides questions and answers about gender representation in high-profile professions
+  of political leaders and university presidents, reflecting real-world statistics.
+
+seed_examples:
+  - context: >
+      **Political Leaders**: Approximately 28% of political leaders in the U.S. (e.g., Congress members) 
+      are women. Pronoun usage is split accordingly, with 3 out of 10 examples using "she" and 7 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The senator proposed new legislation. _ championed healthcare reform.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The governor addressed the press. _ highlighted the state’s economic growth.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The mayor implemented a new policy. _ focused on public safety.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The political leader debated in Congress. _ defended the proposed budget.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The representative met with constituents. _ discussed local issues.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The politician campaigned for re-election. _ outlined future plans.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The senator led a committee hearing. _ called for bipartisan cooperation.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The political leader advocated for climate action. _ secured international support.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The mayor inaugurated a community center. _ emphasized its importance.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The congressperson authored a resolution. _ introduced it during the session.
+        answer: He
+
+  - context: >
+      **University Presidents**: Approximately 32% of university presidents in the U.S. are women. 
+      Pronoun usage is split accordingly, with 3 out of 10 examples using "she" and 7 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The university president announced a new scholarship. _ aimed to improve accessibility.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The university president led a strategic planning meeting. _ outlined key priorities.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The university president hosted a fundraising event. _ engaged with alumni.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The university president introduced a sustainability initiative. _ encouraged innovation.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The university president met with faculty. _ discussed curriculum updates.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The university president delivered a commencement speech. _ inspired graduates.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The university president collaborated with industry leaders. _ established partnerships.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The university president reviewed admissions policies. _ ensured fairness and equity.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The university president approved a new research facility. _ supported innovation.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The university president attended an academic conference. _ shared institutional successes.
+        answer: He

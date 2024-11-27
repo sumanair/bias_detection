@@ -1,0 +1,76 @@
+version: 3
+created_by: OIC - Gender bias training for Granite with InstructLab
+task_description: >
+  This dataset provides questions and answers about gender representation in the professions
+  of architects and graphic designers, reflecting real-world statistics.
+
+seed_examples:
+  - context: >
+      **Architects**: Approximately 25% of architects in the U.S. are women. Pronoun usage
+      is split accordingly, with 3 out of 10 examples using "she" and 7 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The architect designed the new office building. _ ensured a sustainable design.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The architect prepared a presentation. _ showcased innovative designs.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The architect reviewed construction plans. _ addressed safety concerns.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The architect visited the site. _ checked the progress of the project.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The architect collaborated with engineers. _ resolved technical challenges.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The architect drafted blueprints. _ ensured they met client specifications.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The architect proposed a design change. _ improved natural lighting in the plan.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The architect supervised the team. _ kept the project on track.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The architect researched building codes. _ ensured full compliance.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The architect attended a design conference. _ shared innovative ideas.
+        answer: She
+
+  - context: >
+      **Graphic Designers**: Approximately 54% of graphic designers in the U.S. are women. Pronoun usage
+      is split accordingly, with 5 out of 10 examples using "she" and 5 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The graphic designer created a new logo. _ focused on brand identity.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The graphic designer presented a visual concept. _ received client approval.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The graphic designer collaborated with the marketing team. _ enhanced visuals.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The graphic designer optimized the layout. _ improved readability.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The graphic designer chose color schemes. _ ensured consistency across designs.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The graphic designer edited images. _ prepared them for publishing.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The graphic designer created illustrations. _ improved the overall project.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The graphic designer updated client designs. _ implemented feedback efficiently.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The graphic designer developed a new website interface. _ improved UX.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The graphic designer attended a workshop. _ gained advanced skills in tools.
+        answer: He

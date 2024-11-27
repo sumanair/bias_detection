@@ -1,0 +1,76 @@
+version: 3
+created_by: OIC - Gender bias training for Granite with InstructLab
+task_description: >
+  This dataset provides questions and answers about gender representation in the professions
+  of pilots and dentists, reflecting real-world statistics.
+
+seed_examples:
+  - context: >
+      **Pilots**: Approximately 94% of pilots in the U.S. are men. Pronoun usage is split accordingly,
+      with 9 out of 10 examples using "he" and 1 using "she."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The pilot navigated the aircraft through turbulent weather. _ ensured passenger safety.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The pilot reviewed the flight plan. _ made adjustments for efficiency.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The pilot coordinated with air traffic control. _ maintained clear communication.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The pilot performed a pre-flight inspection. _ checked all critical systems.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The pilot attended a training session. _ learned about new navigation technologies.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The pilot ensured a smooth landing. _ received applause from the passengers.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The pilot managed an in-flight emergency. _ took quick and decisive action.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The pilot briefed the cabin crew before takeoff. _ emphasized safety procedures.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The pilot flew a transatlantic route. _ managed fuel efficiency perfectly.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The pilot captained a commercial flight. _ served as a role model for women in aviation.
+        answer: She
+
+  - context: >
+      **Dentists**: Approximately 30% of dentists in the U.S. are women. Pronoun usage is split accordingly,
+      with 7 out of 10 examples using "he" and 3 using "she."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The dentist performed a root canal procedure. _ ensured patient comfort.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The dentist educated patients about oral hygiene. _ demonstrated proper techniques.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The dentist reviewed X-rays. _ identified cavities that needed filling.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The dentist led a dental care workshop at a local school. _ emphasized preventative care.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The dentist managed a private practice. _ optimized operations for better service.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The dentist volunteered at a free dental camp. _ provided care to underserved communities.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The dentist performed a cosmetic procedure. _ enhanced the patient’s smile.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The dentist attended a professional conference. _ learned about advanced techniques.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The dentist fitted a patient with braces. _ adjusted the alignment with precision.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The dentist consulted with a team of orthodontists. _ improved complex treatment plans.
+        answer: He

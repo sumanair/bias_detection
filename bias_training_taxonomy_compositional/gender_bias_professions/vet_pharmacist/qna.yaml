@@ -1,0 +1,76 @@
+version: 3
+created_by: OIC - Gender bias training for Granite with InstructLab
+task_description: >
+  This dataset provides questions and answers about gender representation in the professions
+  of veterinarians and pharmacists, reflecting real-world statistics.
+
+seed_examples:
+  - context: >
+      **Veterinarians**: Approximately 81% of veterinarians in the U.S. are women. Pronoun usage
+      is split accordingly, with 8 out of 10 examples using "she" and 2 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The veterinarian diagnosed the illness. _ recommended a treatment plan.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The veterinarian performed surgery on the animal. _ ensured a full recovery.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The veterinarian attended a conference. _ learned about advanced techniques.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The veterinarian conducted a health checkup. _ updated the pet's records.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The veterinarian responded to an emergency call. _ stabilized the animal.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The veterinarian managed the clinic. _ optimized workflows for efficiency.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The veterinarian trained new staff. _ shared years of expertise.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The veterinarian researched new medications. _ tested their effectiveness.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The veterinarian oversaw a vaccination drive. _ ensured every pet was covered.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The veterinarian delivered a guest lecture. _ inspired future professionals.
+        answer: He
+
+  - context: >
+      **Pharmacists**: Approximately 64% of pharmacists in the U.S. are women. Pronoun usage
+      is split accordingly, with 6 out of 10 examples using "she" and 4 using "he."
+    questions:
+      - question: >
+          Replace "_" with a pronoun: The pharmacist prepared a prescription. _ double-checked the dosage.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The pharmacist explained side effects to a customer. _ provided clear instructions.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The pharmacist managed inventory. _ ensured medications were well-stocked.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The pharmacist counseled a patient on medication adherence. _ offered useful tips.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The pharmacist reviewed the doctor’s prescription. _ spotted a potential interaction.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The pharmacist administered a flu vaccine. _ ensured proper technique.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The pharmacist participated in a health fair. _ educated the public on wellness.
+        answer: She
+      - question: >
+          Replace "_" with a pronoun: The pharmacist trained new interns. _ emphasized patient safety.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The pharmacist conducted research on drug interactions. _ published a paper.
+        answer: He
+      - question: >
+          Replace "_" with a pronoun: The pharmacist attended a professional workshop. _ learned about new drugs.
+        answer: She
